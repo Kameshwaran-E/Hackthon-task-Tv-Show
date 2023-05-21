@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Project | kameshwaran (kameshwaran-e)</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+   
+  
+  </head>
+
+  <body>
+    <section id="header-wrapper">
+      <div id="header">
+          <br><br>
+        <div id="header-logo">
+          
+          <img src="https://www.tataplay.com/cms-assets/2022-09/500apps-ind-new.gif" alt="tv-logo" srcset="" width="300px" height="200px">
+          <h1>Tv Show</h1>
+        </div>
+        
+        <div id="search-wrapper">
+          <select name="allShows" id="allshows">
+
+          </select>
+          <select name="tvshowlist" id="showlist">
+
+          </select>
+        <input type="text" id="search" name="search" placeholder="Search" autocomplete="off">
+        <span id="result-count"></span>
+        </div>
+      </div>
+    </section>
+      <section id="episodes">
+        <ul id="cards">
+        
+        </ul>
+
+      </section>
+     
+    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+    <script src="episodes.js"></script>
+      <script src="shows.js"></script>
+    <!-- Loads YOUR javascript code -->
+    <script src="script.js"></script>
+  </body>
+</html>
